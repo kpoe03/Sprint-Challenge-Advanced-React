@@ -17,7 +17,7 @@ const Navbar = () => {
                     className={darkMode ? 'toggle toggled' : 'toggle'}
                 >Dark Mode</button>
             </div>
-            {darkMode && <p>Dark mode on!</p>}
+            {darkMode}
         </nav>
     )
 }

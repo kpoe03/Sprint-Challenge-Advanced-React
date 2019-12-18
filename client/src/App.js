@@ -1,8 +1,8 @@
 import React from 'react';
 import axios from 'axios';
 import './App.css';
-import PlayerList from './components/PlayerList';
-import Navbar from './components/Navbar';
+import PlayerList from './components/PlayerList.js';
+import Navbar from './components/Navbar.js';
 class App extends React.Component {
 
   state = {
